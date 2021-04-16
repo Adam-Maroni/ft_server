@@ -6,7 +6,7 @@ chown -R www-data /var/www/*
 chmod -R 755 /var/www/*
 
 #Configuration de NGINX
-cp /tmp/default_nginx_conf /etc/nginx/sites-availabe/default
+cp /tmp/default_nginx_conf /etc/nginx/sites-available/default
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
