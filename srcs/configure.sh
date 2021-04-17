@@ -25,6 +25,7 @@ cp -r /tmp/wordpress /var/www/html/wordpress
 #Configuration des propriétaire pour les sites
 chown -R www-data /var/www/*
 chmod -R 755 /var/www/*
+rm -f /var/www/html/index.nginx-debian.html
 
 #Lancement de phpmyadmin et nginx
 service php7.3-fpm start
