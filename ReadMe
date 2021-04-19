@@ -1,4 +1,4 @@
-To test it:
+To test it (index on by default):
 bash tests/launch.sh
 
 Desactivate index:
